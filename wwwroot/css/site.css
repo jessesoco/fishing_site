@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+}
+:root, .color-scheme-1 {
+    --color-background: 255, 255, 255;
+    --gradient-background: radial-gradient(rgba(179, 164, 255, 1), rgba(255, 255, 255, 1) 79%, rgba(255, 255, 255, 1) 97%);
+    --color-foreground: 18, 18, 18;
+    --color-background-contrast: 191, 191, 191;
+    --color-shadow: 18, 18, 18;
+    --color-button: 0, 0, 0;
+    --color-button-text: 255, 255, 255;
+    --color-secondary-button: 255, 255, 255;
+    --color-secondary-button-text: 18, 18, 18;
+    --color-link: 18, 18, 18;
+    --color-badge-foreground: 18, 18, 18;
+    --color-badge-background: 255, 255, 255;
+    --color-badge-border: 18, 18, 18;
+    --payment-terms-background-color: rgb(255 255 255);
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: var(--gradient-background);
+    background-attachment: fixed;
+    font-family: "Monotype Century Old Style", serif;
+}
+.left-content {
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+}
+.left-content img{
+    width: 100%;
+}
+.right-content {
+    width: 40%;
+    float: left;
+}
+.h2-title {
+    line-height: 1;
+    text-align: center;
+    margin: 52px 0 40px 0;
+    font-size: 30px;
+}
+.clearboth{
+    clear: both;
+}
+h1, .h1 {
+    font-size: 40px;
+}
+.footer{
+    text-align: center;
+}
+.left-content img{
+    margin-bottom: 10px;
+}
